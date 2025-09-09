@@ -1,0 +1,62 @@
+:root {
+    --purple-100: hsl(254, 88%, 90%);
+    --purple-500: hsl(256, 67%, 59%);
+
+    --yellow-100: hsl(31, 66%, 93%);
+    --yellow-500: hsl(39, 100%, 71%);
+
+    --white: hsl(0, 0%, 100%);
+    --black: hsl(0, 0%, 7%);
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100dvw;
+    height: 100dvh;
+}
+
+body {
+    font-size: 18px;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+.box-item {
+    border: 1px solid black;
+    border-radius: 0.5rem;
+}
+
+img {
+    width: 75%;
+    height: auto;
+}
+
+#social-media-item span {
+    color: var(--yellow-500);
+}
+
+#social-media-item p {
+    color: var(--yellow-100);
+}
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
